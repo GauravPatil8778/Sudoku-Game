@@ -7,39 +7,37 @@
     <title>Sudoku Game</title>
     <link rel="stylesheet" href="Sudoku.css">
     <script src="Sudoku.js"></script>
+    <script src="https://kit.fontawesome.com/64d58efce2.js"crossorigin="anonymous"></script>
 
        
 </head>
 <header>
-    <h1>Sudoku</h1>
+    <img src="sudoku.jpg" height="120px" width="400px">
+    <br><br>
     <div id="set-up">
         <div id="difficulty">
-            <h3>Choose Difficulty :</h3>
+            <h3><i class="fa fa-tachometer-alt"> Choose Difficulty :</i></h3>
             <label><input type="radio" id="diff-1" name="Diff" value="easy" checked> Easy</label>
             <label><input type="radio" id="diff-2" name="Diff" value="medium" > Medium</label>
             <label><input type="radio" id="diff-3" name="Diff" value="hard" >Hard</label>
 
         </div>
-        <div id="time">
-            <h3>Choose Time :</h3>
 
+        <div id="time">
+            <h3><i class="fa fa-stopwatch"> Choose Time :</i></h3>
             <label><input type="radio" id="time-1" name="time" value="three" checked> 3 Min</label>
             <label><input type="radio" id="time-2" name="time" value="five" > 5 Min</label>
             <label><input type="radio" id="time-3" name="time" value="ten" > 10 Min</label>
-
         </div>
         
         <div id=theme>
-
-            <h3>Choose Theme :</h3>
-
+            <h3><i class="fa fa-palette"> Choose Theme :</i></h3>
             <label><input type="radio" name="theme" id="theme-1" value="light" checked> Light</label>
             <label><input type="radio" name="theme" id="theme-2" value="dark"> Dark</label>
-
         </div>
         
     </div>
-    <button id="btn1">Load New Board</button>
+    <button id="btn1" class="btn1">Load New Board</button>
 
 </header>
 <body>
