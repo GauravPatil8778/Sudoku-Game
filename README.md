@@ -10,5 +10,8 @@ JavaScript handles the mechanism of the application.
 ## RUNNING
 To run this project simply double click on index.html fole or open it in any browser.
 
+![sudoku](https://user-images.githubusercontent.com/115169849/194346512-d6dcf5ab-a51a-48e7-a65e-31684623edfb.JPG)
+
+
 
 THANK YOU !!
