@@ -1,53 +1,69 @@
+/* Importing Google Fonts (Poppins) */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
+/* Hides elements with the 'hidden' class */
 .hidden {
-
     display: none;
-    
 }
+
+/* Dark mode settings for the body */
 body.dark {
     background-color: #333333;
     color: white;
 }
+
+/* Styling the header section */
 header {
     text-align: center;
     padding-bottom: 10px;
     border-bottom: 3px solid greenyellow;
 }
+
+/* Font size for h1 elements */
 h1 {
     font-size: 45pt;
 }
 
+/* Flexbox layout for setup section */
 #set-up {
     display: flex;
     justify-content: center;
 }
-#set-up >*{
+
+/* Styling each child of the setup section */
+#set-up >* {
     margin-bottom: 10px;
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
     align-items: center;
-    background-color:#F24B4A;
+    background-color: #F24B4A;
     font-size: 17px;
     font-weight: 500;
 }
+
+/* Center alignment for buttons */
 button {
     justify-content: center;
 }
-p#timer, p#lives{
+
+/* Styling for timer and lives text */
+p#timer, p#lives {
     font-size: 25px;
     font-weight: bold;
     text-align: center;
     color: #9F4AF2;
 }
+
+/* Flexbox layout for the game board */
 #game {
     display: flex;
     justify-content: center;
 }
-#number-container > p 
-{
-    background-color:rgb(125, 125, 125);
+
+/* Styling for the numbers in the number container */
+#number-container > p {
+    background-color: rgb(125, 125, 125);
     border: 1px solid black;
     border-radius: 20%;
     width: 60px;
@@ -59,12 +75,13 @@ p#timer, p#lives{
     text-align: center;
 }
 
-#board::before
-{
+/* Styling the board background */
+#board::before {
     background-color: white;
 }
-#board 
-{
+
+/* Flexbox layout for the Sudoku board */
+#board {
     padding-top: 10px;
     margin-top: 10px;
     display: flex;
@@ -74,6 +91,8 @@ p#timer, p#lives{
     width: 600px;
     height: 600px;
 }
+
+/* Styling for each tile in the Sudoku board */
 .tile {
     border: 1px solid black;
     width: 60px;
@@ -82,38 +101,46 @@ p#timer, p#lives{
     margin: 0px;
     vertical-align: middle;
     font-size: 40px;
-
 }
+
+/* Highlighting the selected tile */
 p.selected {
     background-color: lightblue;
 }
+
+/* Styling for incorrect entries */
 p.incorrect {
     color: red;
 }
+
+/* Right border for specific tiles */
 .rightBorder {
     border-right: 4px solid black;
 }
+
+/* Bottom border for specific tiles */
 .bottomBorder {
     border-bottom: 4px solid black;
 }
 
+/* Styling for the footer section */
 footer {
     background-color: rgb(15, 119, 119);
     border-bottom: 2px solid rgb(131, 6, 58);
     border-top: 2px solid rgb(131, 6, 58);
     border-right: 2px solid rgb(131, 6, 58);
-    border-left: 2px solid rgb(131, 6, 58);;
+    border-left: 2px solid rgb(131, 6, 58);
     color: wheat;
-    
     height: 100px;
 }
 
+/* Styling for a specific text element */
 #hrr {
-    color: brown;   
+    color: brown;
 }
 
-.btn1
-{
+/* Styling for the Load New Board button */
+.btn1 {
     background-color: limegreen;
     padding: 16px 30px;
     color: white;
@@ -123,8 +150,9 @@ footer {
     font-size: 15px;
     font-weight: 500;
 }
-.btn1:hover
-{
-    background-color:lime;
+
+/* Hover effect for the button */
+.btn1:hover {
+    background-color: lime;
     color: #000;
 }
