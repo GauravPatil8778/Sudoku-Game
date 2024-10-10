@@ -15,5 +15,3 @@ To run this project simply double click on index.html fole or open it in any bro
 
 
 THANK YOU !!
-This is OWN bye Gaurav Patil
-
