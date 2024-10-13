@@ -1,46 +1,68 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-color: #ececec;
+    margin: 0;
 }
 
 .sudoku-container {
     text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(9, 40px);
-    grid-template-rows: repeat(9, 40px);
-    gap: 1px;
-    background-color: #333;
+    grid-template-columns: repeat(9, 50px);
+    grid-template-rows: repeat(9, 50px);
+    gap: 2px;
+    background-color: #666;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .cell {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
     font-size: 20px;
+    color: #333;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
 }
 
 .cell:focus {
     outline: none;
-    border-color: blue;
+    background-color: #eef;
+    border-color: #007BFF;
 }
 
 button {
     margin-top: 20px;
-    padding: 10px 15px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
 
 #result-message {
-    margin-top: 10px;
+    margin-top: 20px;
     font-weight: bold;
+    color: #333;
 }
