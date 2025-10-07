@@ -57,6 +57,17 @@ p#timer, p#lives{
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#number-container > p:hover{
+    background-color: #6baefd;
+    scale: 1.05;
+}
+
+#number-container .selected{
+    background-color: #57c657;
 }
 
 #board::before
@@ -82,7 +93,11 @@ p#timer, p#lives{
     margin: 0px;
     vertical-align: middle;
     font-size: 40px;
-
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.tile:hover{
+    background: rgb(150, 201, 255);
 }
 p.selected {
     background-color: lightblue;
