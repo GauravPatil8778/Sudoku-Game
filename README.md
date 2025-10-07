@@ -30,5 +30,4 @@ To run this project simply double click on index.html fole or open it in any bro
 ![sudoku](https://user-images.githubusercontent.com/115169849/194346512-d6dcf5ab-a51a-48e7-a65e-31684623edfb.JPG)
 
 
-
-THANK YOU !!
+<img width="172" height="148" alt="download (2)" src="https://github.com/user-attachments/assets/31ce1d9a-8244-43a0-9f9e-d5aeb0b94296" />
